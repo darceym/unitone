@@ -7,6 +7,21 @@
     width: 220px;
     margin: 5px; 
 }
+.nav {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    float: right;
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+.li-a {
+    float: right;
+    display: block;
+    padding:10px;
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
 .body-content {
     background-image: url("hotel-wallpaper.png");
     width: 960px;
@@ -14,12 +29,8 @@
     border-color: #dddddd;
     align-content: center;
 }
-
-.nav {
-    color: #777777;
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-}
 .footer {
+    position: sticky;
     border-top: 8px solid #4aaaa5; 
     text-align: center;
     background-color: #666666;
@@ -53,12 +64,12 @@
 }
 .container1 {
     width: 800px;
-    height: 350px;
+    height: 330px;
     padding-bottom: 50px;
     background-color: #ffffff;
     border: #dddddd;
-    padding-top: 25px;
-    margin: 20px;
+    padding-top: 15px;
+    margin: 50px;
     align-content: center;
 }
 .container2 {
@@ -83,7 +94,8 @@
 }
 .Projects2 {
     float: right;
-    margin: 10px;
+    margin: 0px; auto;
+    padding-top: 50px;
     width: 33%;
 
 }
